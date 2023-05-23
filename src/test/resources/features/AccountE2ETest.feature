@@ -4,7 +4,7 @@
 # Add Phone 
 # Add Car
 # Get Account
-
+@Regression
 Feature: End 2 End Account Testing
 Background: 
 * def result = callonce read('GenerateToken.feature')

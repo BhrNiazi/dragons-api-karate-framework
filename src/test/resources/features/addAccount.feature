@@ -1,3 +1,4 @@
+@Regression
 Feature: create new account
 
   Background: 

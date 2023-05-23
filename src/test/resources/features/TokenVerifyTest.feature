@@ -1,4 +1,4 @@
-
+@Smoke @Regression
 Feature: Token Verify Test
 
 Background:  
