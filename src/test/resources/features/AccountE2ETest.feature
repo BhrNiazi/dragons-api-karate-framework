@@ -13,7 +13,7 @@ Feature: End 2 End Account Testing
     Given url "https://tek-insurance-api.azurewebsites.net"
 
   Scenario: Create an Account add Address Phone Car and get the account
-    * def generatedData = Java.type ("api.data.GenerateData")
+    * def generatedData = Java.type ('api.data.GenerateData')
     * def autoEmail = generatedData.getEmail()
     Given path "/api/accounts/add-primary-account"
     Then header Authorization = "Bearer " + generatedToken
