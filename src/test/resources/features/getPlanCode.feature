@@ -1,3 +1,4 @@
+@Regression
 Feature: Get All Plan Code
 
   Background: 

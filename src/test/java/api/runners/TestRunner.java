@@ -9,7 +9,7 @@ public class TestRunner {
 		// run()  method required path to feature file.
 		// you can use ags() ethod to specify the Tags.
 		return Karate.run("classpath:features")
-				.tags("Test");
+				.tags("Regression");
 	}
 	
 	
