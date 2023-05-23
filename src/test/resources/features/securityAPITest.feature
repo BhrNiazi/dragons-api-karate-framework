@@ -1,6 +1,5 @@
-@Test
+@Smoke
 Feature: API Test Security Section
-
   
   Scenario: Create token with valid username and password.
     #prepare request

@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Token Verify Test
 
 Background:  
