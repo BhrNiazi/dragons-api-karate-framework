@@ -1,4 +1,4 @@
-@Regression
+
 Feature: Create Account Test
 
 Background:  API Test Setup
@@ -14,7 +14,7 @@ And request
 """
 {
   
-  "email": "Bahar09@teksckool.us",
+  "email": "Bahar100@teksckool.us",
   "firstName": "Bahara",
   "lastName": "Niazi",
   "title": "Ms.",
@@ -29,7 +29,7 @@ And request
 When method post
 Then status 201
 And print response
-And assert response.email == "Bahar5@teksckool.us"
+And assert response.email == "Bahar100@teksckool.us"
 #Delete account
 Given path "/api/accounts/delete-account/"
 When header Authorization = "Bearer " + generatedToken
